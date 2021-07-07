@@ -8,3 +8,10 @@ The code book contains information about the raw data, the data processing and i
 tidydata.txt contains the output of the data processing.
 
 Note that the original raw data is not supplied here. A link to download the raw data can be found from the code book.
+
+The data processing steps were:
+1. The different .txt files data sets were read into R and merged.
+2. The data set was filtered so that only columns measuring means or standard deviations remained.
+3. The column names were processed to simplify long and confusing variables.
+4. The codes 1 to 6 originally used to designate activities were replaced by the actual activity names for better tidiness and readability. 
+5. The data set was processed once more, taking the average grouped by individual and activity to obtain tidydata.txt.
